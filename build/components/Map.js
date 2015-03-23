@@ -193,7 +193,7 @@ var Map = React.createClass({
 				      <h5>
 					      Teken een polygoon op de kaart
 				      </h5>
-				      <p>Het gebied kan maximaal 100.000 km<sup>2</sup> groot zijn</p>
+				      <p>Het gebied kan maximaal 10.000 km<sup>2</sup> groot zijn</p>
 				      <p>Gebruik het polygoon icoontje linksboven om met intekenen te starten</p>
 				      <p>U kunt de polygoon afsluiten door te dubbelklikken of door op het beginpunt te klikken</p>
 			      </TabPane>
