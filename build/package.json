@@ -1,0 +1,40 @@
+{
+  "name": "threedi-modelcreator",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Polygon drawing app for 3Di model creation",
+  "main": "app.js",
+  "author": "Gijs Nijholt <gijs.nijholt@nelen-schuurmans.nl>",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "debug": "2.1.3",
+    "babel": "4.7.16",
+    "moment": "",
+    "leaflet": "0.7.3",
+    "leaflet-hash": "~0.2.1",
+    "leaflet-draw": "0.2.3",
+    "leaflet-geodesy": "0.2.1",
+    "turf": "2.0.0",
+    "react": "0.13.1",
+    "react-widgets": "",
+    "react-bootstrap": "",
+    "jquery": "~2.1.3",
+    "es6-promise": "1.0.0",
+    "d3": "",
+    "sweetalert": "",
+    "underscore": ""
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "less": "^2.4.0",
+    "less-loader": "^2.1.0",    
+    "babel-loader": "~4.2.0",
+    "css-loader": "0.9.1",
+    "style-loader": "0.8.3",
+    "url-loader": "0.5.5",
+    "imports-loader": "0.6.3",
+    "webpack": "1.7.3"
+  }
+}

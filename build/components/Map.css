@@ -1,0 +1,5 @@
+html, body#modelcreator-app, #map, .wrapper, .mapwrapper, .Map {
+    height: 100%;
+    padding:0;
+    margin:0;
+}
