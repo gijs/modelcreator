@@ -175,6 +175,10 @@ var Map = React.createClass({
     handleSubmit: function() {
     	swal('Nog niet klaar', 'Sorry, deze feature is nog niet klaar!', 'error');
     },
+    handleGeojsonIO: function() {
+    	var redirectString = 'http://geojson.io/#data=data:application/json,' + encodeURIComponent(JSON.stringify(this.state.result));
+    	window.location = redirectString;
+    },
 	renderOverlay: function () {
 
 	    if (!this.state.isModalOpen) {
@@ -201,7 +205,10 @@ var Map = React.createClass({
 				      <hr/>
 				      <h5>Resultaat</h5>
 				      <pre dangerouslySetInnerHTML={{__html: JSON.stringify(this.state.result)}} />
-				      <Button onClick={this.handleSubmit}>Dit model verzenden naar 3Di</Button>
+				      <ButtonGroup>
+					      <Button onClick={this.handleSubmit}>Dit model verzenden naar 3Di</Button>
+					      <Button onClick={this.handleGeojsonIO}>Openen in geojson.io</Button>
+					  </ButtonGroup>
 			      </TabPane>
 			    </TabbedArea>	            
 	          </div>
