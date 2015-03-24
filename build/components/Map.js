@@ -134,6 +134,7 @@ var Map = React.createClass({
 					  text: "Wilt u dit gebied als nieuw modelgebied?",
 					  type: "warning",
 					  showCancelButton: true,
+					  cancelButtonText: "Nee",
 					  confirmButtonColor: "#337AB7",
 					  confirmButtonText: "Ja, dit gebied wil ik!",
 					  closeOnConfirm: true,
